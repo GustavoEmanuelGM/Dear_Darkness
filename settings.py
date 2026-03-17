@@ -1,0 +1,6 @@
+WIDTH = 960
+HEIGHT = 540
+FPS = 60
+TITLE = "Dear Darkness"
+
+BG_COLOR = (20, 20, 28)

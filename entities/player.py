@@ -5,6 +5,11 @@ class Player:
     def __init__(self, x, y):
         self.speed = 4
 
+        self.hp = 5
+        self.max_hp = 5
+        self.damage_cooldown = 0
+        self.is_hurt = False
+
         self.frame_width = 96
         self.frame_height = 80
         self.scale = 1
@@ -131,6 +136,19 @@ class Player:
 
         self.sync_rect_with_hitbox()
 
+    def take_damage(self, amount=1):
+        if self.damage_cooldown > 0:
+            return
+
+        self.hp -= amount
+        self.damage_cooldown = 90
+        self.is_hurt = True
+
+        if self.hp < 0:
+            self.hp = 0
+
+        print("HP do player:", self.hp)
+
     def collides_with_walls(self, hitbox, world):
         corners = [
             (hitbox.left, hitbox.top),
@@ -221,15 +239,20 @@ class Player:
         self.image = self.animations[self.current_animation][self.current_frame]
 
     def update(self, world):
+        if self.damage_cooldown > 0:
+            self.damage_cooldown -= 1
+        else:
+            self.is_hurt = False
+
         self.handle_input(world)
         self.update_animation()
 
     def draw(self, screen):
+        if self.is_hurt and self.damage_cooldown % 4 < 2:
+            return
+
         screen.blit(self.image, self.rect)
 
-        # debug da hitbox do player
-        # pygame.draw.rect(screen, (255, 255, 0), self.hitbox, 2)
-
         # debug da área de golpe
-        if self.attack_active:
-            pygame.draw.rect(screen, (255, 0, 0), self.attack_hitbox, 2)
+        # if self.attack_active:
+        #    pygame.draw.rect(screen, (255, 0, 0), self.attack_hitbox, 2)

@@ -4,176 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d90cd6a6-1978-4338-87bb-2a2c83404443" name="Changes" comment="Adiciona animações de idle e walk por direção">
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/COUPON.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/COUPON.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/Free Assets Craftpix!.url" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PNG/COUPON.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PNG/Objects.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PNG/Water_coasts_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PNG/decorative_cracks_coasts_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PNG/decorative_cracks_floor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PNG/decorative_cracks_walls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PNG/doors_lever_chest_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PNG/fire_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PNG/fire_animation2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PNG/trap_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PNG/walls_floor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PNG/water_detilazation_v2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PSD/COUPON.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PSD/Objects.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PSD/Water_coasts_animation.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PSD/decorative_cracks_coasts_animation.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PSD/decorative_cracks_floor.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PSD/decorative_cracks_walls.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PSD/doors_lever_chest_animation.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PSD/fire_animation.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PSD/fire_animation2.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PSD/trap_animation.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PSD/walls_floor.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/PSD/water_details_animation.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/Tiled_files/Dungeon1.tmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/Tiled_files/Objects.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/Tiled_files/Water_coasts_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/Tiled_files/decorative_cracks_coasts_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/Tiled_files/decorative_cracks_floor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/Tiled_files/decorative_cracks_walls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/Tiled_files/doors_lever_chest_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/Tiled_files/fire_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/Tiled_files/fire_animation2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/Tiled_files/trap_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/Tiled_files/walls_floor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/Tiled_files/water_details_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/._COUPON.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/._COUPON.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/._Free Assets Craftpix!.url" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/._PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/._PSD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/._Tiled_files" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/._readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PNG/._COUPON.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PNG/._Objects.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PNG/._Water_coasts_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PNG/._decorative_cracks_coasts_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PNG/._decorative_cracks_floor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PNG/._decorative_cracks_walls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PNG/._doors_lever_chest_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PNG/._fire_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PNG/._fire_animation2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PNG/._trap_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PNG/._walls_floor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PNG/._water_detilazation_v2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PSD/._COUPON.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PSD/._Objects.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PSD/._Water_coasts_animation.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PSD/._decorative_cracks_coasts_animation.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PSD/._decorative_cracks_floor.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PSD/._decorative_cracks_walls.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PSD/._doors_lever_chest_animation.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PSD/._fire_animation.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PSD/._fire_animation2.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PSD/._trap_animation.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PSD/._walls_floor.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/PSD/._water_details_animation.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/Tiled_files/._Dungeon1.tmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/Tiled_files/._Objects.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/Tiled_files/._Water_coasts_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/Tiled_files/._decorative_cracks_coasts_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/Tiled_files/._decorative_cracks_floor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/Tiled_files/._decorative_cracks_walls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/Tiled_files/._doors_lever_chest_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/Tiled_files/._fire_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/Tiled_files/._fire_animation2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/Tiled_files/._trap_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/Tiled_files/._walls_floor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/__MACOSX/Tiled_files/._water_details_animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dungeon/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Attack/Vampires1_Attack_body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Attack/Vampires1_Attack_full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Attack/Vampires1_Attack_head.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Attack/Vampires1_Attack_magic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Attack/Vampires1_Attack_shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/COUPON.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/COUPON.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Death/Vampires1_Death_body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Death/Vampires1_Death_full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Death/Vampires1_Death_head.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Death/Vampires1_Death_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Death/Vampires1_Death_shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Death/Vampires1_Death_smoke.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Free Assets Craftpix!.url" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Hurt/Vampires1_Hurt_body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Hurt/Vampires1_Hurt_full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Hurt/Vampires1_Hurt_head.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Hurt/Vampires1_Hurt_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Hurt/Vampires1_Hurt_shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Idle/Vampires1_Idle_body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Idle/Vampires1_Idle_full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Idle/Vampires1_Idle_head.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Idle/Vampires1_Idle_shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Run/Vampires1_Run_body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Run/Vampires1_Run_full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Run/Vampires1_Run_head.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Run/Vampires1_Run_shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Walk/Vampires1_Walk_body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Walk/Vampires1_Walk_full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Walk/Vampires1_Walk_head.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/Walk/Vampires1_Walk_shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/._2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/._Attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/._COUPON.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/._COUPON.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/._Death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/._Free Assets Craftpix!.url" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/._Hurt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/._Idle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/._Run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/._Walk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Attack/._Vampires1_Attack_body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Attack/._Vampires1_Attack_full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Attack/._Vampires1_Attack_head.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Attack/._Vampires1_Attack_magic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Attack/._Vampires1_Attack_shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Death/._Vampires1_Death_body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Death/._Vampires1_Death_full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Death/._Vampires1_Death_head.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Death/._Vampires1_Death_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Death/._Vampires1_Death_shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Death/._Vampires1_Death_smoke.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Hurt/._Vampires1_Hurt_body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Hurt/._Vampires1_Hurt_full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Hurt/._Vampires1_Hurt_head.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Hurt/._Vampires1_Hurt_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Hurt/._Vampires1_Hurt_shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Idle/._Vampires1_Idle_body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Idle/._Vampires1_Idle_full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Idle/._Vampires1_Idle_head.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Idle/._Vampires1_Idle_shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Run/._Vampires1_Run_body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Run/._Vampires1_Run_full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Run/._Vampires1_Run_head.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Run/._Vampires1_Run_shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Walk/._Vampires1_Walk_body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Walk/._Vampires1_Walk_full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Walk/._Vampires1_Walk_head.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/__MACOSX/Walk/._Vampires1_Walk_shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entities/enemy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maps/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maps/world.py" afterDir="false" />
+    <list default="true" id="d90cd6a6-1978-4338-87bb-2a2c83404443" name="Changes" comment="Adicionei novos assets para um novo enemy e adicionei a movimentação dele&#10;O player consegue dar hit até a morte do inimigo e ele desaparece">
+      <change afterPath="$PROJECT_DIR$/assets/Dear Darkness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/GAME OVER SCREEN .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/dungeon sangrenta full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/dungeon sangrenta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/enemies/vampire1/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/heart pixel art/Credits.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/heart pixel art/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/heart pixel art/heart pixel art 16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/heart pixel art/heart pixel art 254x254.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/heart pixel art/heart pixel art 32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/heart pixel art/heart pixel art 48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/heart pixel art/heart pixel art 64x64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sounds/DavidKBD-02 - Blood Soaked Earth.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sounds/DavidKBD-04 - Devoured by Darkness.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sounds/DavidKBD-08 - Putrid Desecration.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sounds/DavidKBD-Mini Loop 12.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sounds/knifesharpener1.flac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sounds/morte dos vampiros.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/heart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/hud.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/tiles/Ground_rocks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/tiles/Objects.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/tiles/Objects_animated.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/tiles/Objects_animated2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/tiles/Objects_animated3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/tiles/details.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/tiles/water_coasts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/tiles/water_detilazation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/tiles/water_detilazation_v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/entities/enemy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entities/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/entities/player.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/world.py" beforeDir="false" afterPath="$PROJECT_DIR$/maps/world.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,20 +78,24 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.enemy.executor": "Run",
+    "Python.hud.executor": "Run",
     "Python.main.executor": "Run",
     "Python.player.executor": "Run",
+    "Python.world.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/gusta/PycharmProjects/DearDarkness/assets/enemies"
+    "last_opened_file_path": "C:/Users/gusta/PycharmProjects/DearDarkness/assets/sounds"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gusta\PycharmProjects\DearDarkness\assets\sounds" />
+      <recent name="C:\Users\gusta\PycharmProjects\DearDarkness\assets" />
+      <recent name="C:\Users\gusta\PycharmProjects\DearDarkness\assets\enemies\vampire1" />
       <recent name="C:\Users\gusta\PycharmProjects\DearDarkness\assets\enemies" />
       <recent name="C:\Users\gusta\PycharmProjects\DearDarkness\assets\tiles" />
-      <recent name="C:\Users\gusta\PycharmProjects\DearDarkness\assets" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -276,13 +137,22 @@
       <option name="project" value="LOCAL" />
       <updated>1773778327350</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adicionei novos assets para um novo enemy e adicionei a movimentação dele&#10;O player consegue dar hit até a morte do inimigo e ele desaparece">
+      <option name="closed" value="true" />
+      <created>1774030965417</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774030965417</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="base inicial do projeto com janela e player&#10;assets do player e tiles adicionados." />
     <MESSAGE value="Adiciona animacao idle do player" />
     <MESSAGE value="Adiciona animações de idle e walk por direção" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adiciona animações de idle e walk por direção" />
+    <MESSAGE value="Adicionei novos assets para um novo enemy e adicionei a movimentação dele&#10;O player consegue dar hit até a morte do inimigo e ele desaparece" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionei novos assets para um novo enemy e adicionei a movimentação dele&#10;O player consegue dar hit até a morte do inimigo e ele desaparece" />
   </component>
 </project>

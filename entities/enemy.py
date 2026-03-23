@@ -8,12 +8,10 @@ class Enemy:
         self.frame_height = 64
         self.scale = 1
 
-
-
         self.width = self.frame_width * self.scale
         self.height = self.frame_height * self.scale
 
-        self.speed = 2
+        self.speed = 1
         self.direction = "down"
         self.state = "idle"
 
@@ -43,7 +41,6 @@ class Enemy:
             "death_left": self.load_frames("assets/enemies/vampire1/Death/Vampires1_Death_full.png", 10, 2),
         }
 
-        self.state = "idle"
         self.current_frame = 0
         self.animation_timer = 0.0
         self.animation_speed = 0.15
@@ -79,6 +76,12 @@ class Enemy:
 
         return frames
 
+    def set_state(self, new_state: str) -> None:
+        if self.state != new_state:
+            self.state = new_state
+            self.current_frame = 0
+            self.animation_timer = 0.0
+
     def take_damage(self) -> None:
         if not self.alive:
             return
@@ -93,13 +96,9 @@ class Enemy:
         self.damage_cooldown = 20
 
         if self.hp <= 0:
-            self.state = "death"
-            self.current_frame = 0
-            self.animation_timer = 0.0
+            self.set_state("death")
         else:
-            self.state = "hurt"
-            self.current_frame = 0
-            self.animation_timer = 0.0
+            self.set_state("hurt")
 
     def collides_with_walls(self, hitbox: pygame.Rect, world) -> bool:
         corners = [
@@ -132,7 +131,7 @@ class Enemy:
         distance_y = player_y - enemy_y
 
         if abs(distance_x) > self.follow_distance or abs(distance_y) > self.follow_distance:
-            self.state = "idle"
+            self.set_state("idle")
             return
 
         if abs(distance_x) > 4:
@@ -166,33 +165,42 @@ class Enemy:
                 moved = True
 
         if moved:
-            self.state = "walk"
+            self.set_state("walk")
         else:
-            self.state = "idle"
+            self.set_state("idle")
 
     def update_animation(self) -> None:
         animation_key = f"{self.state}_{self.direction}"
+        frames = self.animations[animation_key]
+
+        if self.current_frame >= len(frames):
+            self.current_frame = 0
 
         self.animation_timer += self.animation_speed
 
         if self.animation_timer >= 1:
-            self.animation_timer = 0
-            frames = self.animations[animation_key]
+            self.animation_timer = 0.0
 
             if self.current_frame < len(frames) - 1:
                 self.current_frame += 1
             else:
                 if self.state == "hurt":
-                    self.state = "idle"
-                    self.current_frame = 0
+                    self.set_state("idle")
 
                 elif self.state == "death":
                     self.alive = False
+                    self.current_frame = 0
 
                 else:
                     self.current_frame = 0
 
-        self.image = self.animations[animation_key][self.current_frame]
+                animation_key = f"{self.state}_{self.direction}"
+                frames = self.animations[animation_key]
+
+                if self.current_frame >= len(frames):
+                    self.current_frame = 0
+
+        self.image = frames[self.current_frame]
         self.rect.midbottom = self.hitbox.midbottom
 
     def update(self, player, world) -> None:
